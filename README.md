@@ -52,7 +52,7 @@ No copy-paste. No manual reports. Your AI becomes a live analytics co-pilot.
 
 ### 1. Download & Install
 
-👉 **[Download Free Trial](https://promptflowpro.lemonsqueezy.com/checkout/buy/75cf9672-0b05-4db3-853a-c41bb17ff2f7)**
+👉 **[Download Free Trial](https://github.com/AR2OUR/live-marketing-data-mcp/releases/tag/v1.0.0)**
 
 Run `install.bat` — it handles everything in one go:
 - Installs the server on your machine
