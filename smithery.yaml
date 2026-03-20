@@ -1,0 +1,36 @@
+# Live Marketing Data MCP — Smithery Configuration
+# https://smithery.ai/docs/build/project-config/smithery-yaml
+#
+# ⚠️  IMPORTANT FOR SMITHERY USERS:
+# This server is a compiled Windows executable (.exe) with an interactive
+# setup wizard. It cannot be auto-installed via the Smithery CLI.
+# Please follow the manual installation instructions in the README.
+# Download: https://promptflowpro.lemonsqueezy.com/checkout/buy/75cf9672-0b05-4db3-853a-c41bb17ff2f7
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    description: >
+      Live Marketing Data MCP connects your AI to Meta Ads, GA4, and Google
+      Search Console. Credentials are configured via the interactive setup
+      wizard (run live-marketing-data-mcp.exe --setup) and stored encrypted
+      on your machine. No config parameters are required here.
+    properties:
+      executablePath:
+        type: string
+        title: "Executable Path"
+        description: >
+          Full path to live-marketing-data-mcp.exe on your Windows machine.
+          Example: C:\\Users\\YourName\\LiveMarketingDataMCP\\live-marketing-data-mcp.exe
+          Download the installer at https://promptflowpro.lemonsqueezy.com/checkout/buy/75cf9672-0b05-4db3-853a-c41bb17ff2f7
+    required:
+      - executablePath
+  commandFunction: |-
+    (config) => ({
+      command: config.executablePath,
+      args: [],
+      env: {}
+    })
+  exampleConfig:
+    executablePath: "C:\\Users\\YourName\\LiveMarketingDataMCP\\live-marketing-data-mcp.exe"
