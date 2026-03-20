@@ -4,6 +4,8 @@
 
 > Connect Claude, Cursor, Windsurf and other AI assistants directly to your Meta Ads, Google Analytics 4, and Google Search Console accounts.
 
+[![Live Marketing Data MCP server](https://glama.ai/mcp/servers/AR2OUR/live-marketing-data-mcp/badges/card.svg)](https://glama.ai/mcp/servers/AR2OUR/live-marketing-data-mcp)
+
 ---
 
 ## 🔒 Security First — Built for Sensitive Data
