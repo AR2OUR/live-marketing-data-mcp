@@ -1,5 +1,9 @@
 # 📊 Live Marketing Data MCP
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-blue.svg)]()
+[![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-purple.svg)]()
+
 **Ask your AI about your real marketing data. No CSV exports. No tab switching. Just answers.**
 
 > Connect Claude, Cursor, Windsurf and other AI assistants directly to your Meta Ads, Google Analytics 4, and Google Search Console accounts.
@@ -46,15 +50,26 @@ No copy-paste. No manual reports. Your AI becomes a live analytics co-pilot.
 
 ---
 
+## 🛠️ Available Tools
+
+| Tool | Description |
+|------|-------------|
+| `get_meta_ads_data` | Fetch campaign-level insights from Meta Ads — spend, impressions, clicks, ROAS, CPC, CPM, and more. Supports custom date ranges and breakdowns. |
+| `get_ga4_data` | Pull reports from Google Analytics 4 — sessions, users, conversions, traffic sources, landing pages, and custom dimensions. |
+| `get_search_console_data` | Retrieve clicks, impressions, CTR, and average position from Google Search Console. Filter by query, page, country, or device. |
+| `compare_periods` | Compare marketing performance across two custom date ranges for any connected data source. |
+| `activate_license` | Activate your Pro license key to unlock unlimited tool calls. |
+| `get_status` | Check your current plan, remaining trial runs, and the connection status of all configured data sources. |
+
 ---
 
 ## 🚀 Quick Start
 
 ### 1. Download & Install
 
-👉 **[Download Free Trial](https://github.com/AR2OUR/live-marketing-data-mcp/releases/tag/v1.0.0)**
+👉 **[Download Free Trial](https://promptflowpro.lemonsqueezy.com/checkout/buy/75cf9672-0b05-4db3-853a-c41bb17ff2f7)**
 
-Run `install.bat` — it handles everything in one go:
+You'll receive a ZIP file. Extract it and run `install.bat` — it handles everything in one go:
 - Installs the server on your machine
 - Launches the interactive setup wizard
 - Connects your Meta Ads, GA4, and Search Console accounts
