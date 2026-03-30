@@ -1,0 +1,17 @@
+{
+  "name": "Live Marketing Data MCP",
+  "description": "Connect Claude, Cursor, and Windsurf directly to your Meta Ads, Google Analytics 4, and Search Console accounts. No CSV exports, no copy-pasting — ask your AI about live marketing data.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://promptflow.digital",
+  "repository": "https://github.com/AR2OUR/live-marketing-data-mcp",
+  "author": {
+    "name": "AR2OUR"
+  },
+  "tools": [
+    "get_meta_ads_data",
+    "get_ga4_data",
+    "get_search_console_data"
+  ],
+  "categories": ["marketing", "analytics", "advertising"]
+}
